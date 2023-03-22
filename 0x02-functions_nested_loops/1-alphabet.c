@@ -1,16 +1,18 @@
-#include "_putchar"
+#include "main.h"
+
 /**
-* print_alphabet - wirte the the lower-case alphabet on a line.
-*
-*
-*
+* print_alphabet - print all alphabet in lowercase
 */
+
+
 void print_alphabet(void)
 {
-char c;
-for (c = 'a' ; c <= 'z' ; c++)
-{
-_putchar(c);
-}
+char letter;
+
+
+for (letter = 'a'; letter <= 'z'; letter++)
+_putchar(letter);
+
+
 _putchar('\n');
 }
