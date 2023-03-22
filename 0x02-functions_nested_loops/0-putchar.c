@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * main - print _putchar
-* is written by mbah
+* Nawal
 * Return: 0
 */
 int main(void)
@@ -17,4 +17,3 @@ _putchar('r');
 _putchar('\n');
 return (0);
 }
-
