@@ -1,5 +1,4 @@
-#include <main.h>
-#include <stdio.h>
+#include "main.h"
 /**
  *Write a function that swaps the values of two integers
  *int *a, int *b

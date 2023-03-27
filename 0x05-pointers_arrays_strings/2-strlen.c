@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
 *Write a function that returns the length of a string.
 * @s: string to evaluate
