@@ -2,18 +2,19 @@
 /**
 * *_memset - fills memory with a constant byte
 * @s : pointer to memory
-* @b : char to copy
+* @b : the desired constant byte
 * @n : number of times
 *
-* return : pointer to memory areas s
+* Return : pointer to memory areas s
 */
 
 char *_memset(char *s, char b, unsigned int n);
 {
-unsigned int i;
+int i;
 for (i = 0; i < n; i++)
 {
 S[i] = b;
+n--;
 }
 return (s);
 }
