@@ -9,9 +9,9 @@ int main(void)
 {
 if (*s == '\0')
 {
-printf('\n');
+_putchar('\n');
 return;
 }
-printf(*s);
+_putchar(*s);
 _puts_recursion(s + 1);
 }
