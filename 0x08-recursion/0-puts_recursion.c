@@ -5,16 +5,13 @@
  * @s : print string
  *return : always to 0
 */
-void _puts_recursion(char *s);
-int main(void)
+void _puts_recursion(char *s)
 {
-char  *s;
-if (*s == '\0')
+if (*s)
 {
 _putchar (*s);
-_puts_recursion(*s + 1);
+_puts_recursion(s + 1);
 }
 else
 _putchar('\n');
-return (0);
 }
