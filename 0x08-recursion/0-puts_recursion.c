@@ -1,13 +1,9 @@
-/**
- *author Nawal
- *project Recrsion
- */
 #include "main.h"
 /**
  *main - check the code
  *_puts_recursion: print string followed by new line.
  * @s : print string
- *return : always to 0
+ *return : void
 */
 void _puts_recursion(char *s)
 {
