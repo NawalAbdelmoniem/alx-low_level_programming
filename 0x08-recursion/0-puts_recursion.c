@@ -1,3 +1,7 @@
+/**
+ *author Nawal
+ *project Recrsion
+ */
 #include "main.h"
 /**
  *main - check the code
