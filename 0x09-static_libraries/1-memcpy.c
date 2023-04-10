@@ -2,6 +2,7 @@
 
 /**
 * *_memcpy copies a meomry
+* _memcpy : function copies count bytes of src to dest.
 * @n : number of bytes to copy
 * @src : memory area to copy from
 * @dest : memory area to copy to
@@ -10,12 +11,12 @@
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	int r = 0;
+	int a = 0;
 	int i = n;
 
-	for (; r < i; r++)
+	for (; a < i; a++)
 	{
-		dest[r] = src[r];
+		dest[a] = src[a];
 		n--;
 	}
 	return (dest);
