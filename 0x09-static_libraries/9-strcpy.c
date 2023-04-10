@@ -13,6 +13,7 @@ while (*(src + inc) != '\0')
 *(dest + inc) = *(src + inc);
 inc++;
 }
- *(dest + inc) = ('\0');
+inc++;
+*(dest + inc) = ('\0');
 return (dest);
 }
