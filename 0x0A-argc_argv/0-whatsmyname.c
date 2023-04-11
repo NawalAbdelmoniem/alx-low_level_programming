@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
-*main - prints the name of the program
+*main - entry point
+*description : prints the name of the program
 *@argc: number of arguments
 *@argv: array of arguments
-*return : always 0 (success)
+*Return : always 0 (success)
 */
 int main(int argc __attribute__((unused)), char *argv[])
 {
