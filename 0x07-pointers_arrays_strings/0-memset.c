@@ -8,13 +8,13 @@
 *
 * Return : pointer to memory area (s)
 */
-
-char *_memset(char *s, char b, unsigned int n);
+char *_memset(char *s, char b, unsigned int n)
 {
-unsinged int i;
-for (i = 0; i < n; i++)
+int a = 0;
+for (; n > 0; a++)
 {
-S[i] = b;
+s[a] = b;
+n--;
 }
 return (s);
 }
