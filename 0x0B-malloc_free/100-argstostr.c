@@ -4,7 +4,7 @@
  * argstostr - main entry
  * @ac: int input
  * @av: double pointer array
- * Return: always 0
+ * Return: 0
  */
 char *argstostr(int ac, char **av)
 {
@@ -14,8 +14,8 @@ if (ac == 0 || av == NULL)
 return (NULL);
 for (w = 0; w < ac; w++)
 {
-for (w = 0; av[w][x]; x++)
-w++;
+for (x = 0; av[w][x]; x++)
+z++;
 }
 z += ac;
 str = malloc(sizeof(char) * z + 1);
@@ -23,7 +23,7 @@ if (str == NULL)
 return (NULL);
 for (w = 0; w < ac; w++)
 {
-for (w = 0; av[w][x]; x++)
+for (x = 0; av[w][x]; x++)
 {
 str[y] = av[w][x];
 y++;
