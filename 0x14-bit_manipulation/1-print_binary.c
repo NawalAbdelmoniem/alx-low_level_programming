@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_binary – a function prints
- * a binary equivalent to a decimal number
+ * print_binary – It is a function that
+ * prints binary number equivalent to a decimal number
  * @n: a number require to be printed
  * in a binary
  */
