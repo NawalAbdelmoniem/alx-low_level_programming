@@ -11,10 +11,10 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 int e, num = 0;
 unsigned long int value;
-unsigned long int multiplication = n ^ m;
+unsigned long int exclusive = n ^ m;
 for (e = 63; e >= 0; e--)
 {
-value = multiplication >> e;
+value = exclusive >> e;
 while (value & 1)
 num++;
 }
