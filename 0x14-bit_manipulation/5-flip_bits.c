@@ -15,7 +15,7 @@ unsigned long int exclusive = n ^ m;
 for (e = 63; e >= 0; e--)
 {
 value = exclusive >> e;
-while (value & 1)
+if (value & 1)
 num++;
 }
 return (num);
